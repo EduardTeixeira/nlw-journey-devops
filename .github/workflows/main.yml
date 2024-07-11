@@ -40,5 +40,5 @@ jobs:
         context: .
         push: true
         tags: |
-          EduardTeixeira/nlw-journey-devops:${{ steps.generate_sha.outputs.sha }}
-          EduardTeixeira/nlw-journey-devops.api:latest
+          danielrodriguess/nlw-journey-devops:${{ steps.generate_sha.outputs.sha }}
+          danielrodriguess/nlw-journey-devops.api:latest
