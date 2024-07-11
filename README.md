@@ -45,3 +45,10 @@ docker run -d -p 8080:8080 api-journey:v2
 
 
 docker-compose up --build -d
+
+# GITHUB
+Necessário criar duas configurações dentro do repositório do GitHub, dentro de "Settings > Security > Actions" vamos criar duas variáveis na aba de "Secrets" com os seguintes valores
+
+DOCKERHUB_USERNAME => seu nome de usuário do docker_hub
+
+DOCKERHUB_TOKEN => esse token deve ser gerado dentro do docker_hub
