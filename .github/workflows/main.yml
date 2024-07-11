@@ -41,8 +41,8 @@ jobs:
         context: .
         push: true
         tags: |
-          danielrodriguess/nlw.journey.api:${{ steps.generate_sha.outputs.sha }}
-          danielrodriguess/nlw.journey.api:latest
+          EduardTeixeira/nlw-journey-devops:${{ steps.generate_sha.outputs.sha }}
+          EduardTeixeira/nlw-journey-devops.api:latest
 
     - name: Update image helm
       uses: fjogeleit/yaml-update-action@main
